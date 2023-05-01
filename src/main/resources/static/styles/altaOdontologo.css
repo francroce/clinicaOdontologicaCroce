@@ -1,0 +1,22 @@
+nav span{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #6AB7FF;
+}
+
+.form-control {
+    border: 1px solid #6AB7FF;
+}
+
+.input-group input:focus{
+    border: 2px solid #6AB7FF;
+}
+
+.boton-primary{
+    background: #6AB7FF;
+    color: white;
+}
+
+.buttons{
+    margin-left: 0px;
+}

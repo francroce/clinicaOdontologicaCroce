@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Clinica Odontologica</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/get_paciente.js"></script>
+    <script type="text/javascript" src="/js/delete_paciente.js"></script>
+    <link rel="stylesheet" href="styles/altas.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="/index.html"> <span>Listado Pacientes</span></a>
+        <ul>
+            <a class="nav-link" href="/index.html">INICIO</a>
+            <a class="nav-link" href="/altaPaciente.html">AGREGAR PACIENTE</a>
+        </ul>
+    </nav>
+</header>
+<div class="container-fluid">
+    <div id="div_paciente_table">
+        <div class="row col-md-12 table-responsive">
+            <table id="pacienteTable" class="table table-striped">
+                <thead>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Dni</th>
+                <th>Fecha de ingreso</th>
+                <th>Calle</th>
+                <th>Numero</th>
+                <th>Localidad</th>
+                <th>Provincia</th>
+                <th></th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12" style="display: none; padding:10px; border-radius:3px" id="div_paciente_updating">
+            <form id="update_pacientes_form">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="input-group special-id">
+                            <input type="text" id="idPaciente"readonly></input>
+                            <label> id Paciente</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="nombre" name="nombre" required></input>
+                            <label for="nombre">Nombre</label>
+                        </div>
+
+                        <div class="input-group">
+
+                            <input type="text" id="apellido" name="apellido" required></input>
+                            <label for="apellido">Apellido</label>
+                        </div>
+
+
+                        <div class="input-group">
+                            <input type="email"  id="email" name="email" required></input>
+                            <label for="email">Email</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="number" id="dni" name="dni" required></input>
+                            <label for="dni">Dni</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input onfocus="(this.type='datetime-local')" onblur="if(!this.value) this.type='text'"  id="fechaDeIngreso" name="fechaDeIngreso" required></input>
+                            <label for="fechaDeIngreso">fecha de ingreso</label>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="input-group special-id">
+                            <input type="text" id="idDomicilio"readonly></input>
+                            <label> id Domicilio</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="calle" name="calle" required></input>
+                            <label for="calle">Calle</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" id="numero" name="numero" required></input>
+                            <label for="numero">Numero</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" id="localidad" name="localidad" required></input>
+                            <label for="localidad">localidad</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" id="provincia" name="provincia" required></input>
+                            <label for="provincia">provincia</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn boton-primary">Modificar</button>
+            </form>
+            <div id="response" style="display:none; margin:10px">
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+</body>
+
+<script type="text/javascript" src="/js/put_paciente.js"></script>
+
+</html>

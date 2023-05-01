@@ -1,0 +1,74 @@
+
+[2023-04-0713:00:37] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0812:38:31] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0812:38:34] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-0812:38:40] [ INFO ] [GlobalExceptionHandler: 55] El odontonlogo ha sido modificado correctamente
+[2023-04-0812:38:40] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0812:45:02] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0813:02:31] [ ERROR] [GlobalExceptionHandler: 19] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.TURNO(ID) ( /* key:0 */ CAST(1 AS BIGINT), TIMESTAMP '2023-06-06 00:00:00', CAST(1 AS BIGINT), CAST(1 AS BIGINT))"; SQL statement:
+insert into turno (fecha_de_turno, odontologo_id, paciente_id, id) values (?, ?, ?, ?) [23505-214]]
+[2023-04-0819:19:04] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0913:34:15] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0923:11:50] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0923:12:06] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0923:12:10] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0923:12:26] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Franco Croce": not a valid `long` value
+[2023-04-0923:12:58] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Esteban Gonzalez": not a valid `long` value
+[2023-04-0923:18:34] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0923:18:45] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Franco Croce": not a valid `long` value
+[2023-04-0923:28:37] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-0923:28:45] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "Javier Mascherano": not a valid `java.lang.Long` value
+[2023-04-0923:30:11] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1009:24:16] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1009:25:55] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Esteban Gonzalez": not a valid `long` value
+[2023-04-1009:44:07] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1009:44:15] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Franco Croce": not a valid `long` value
+[2023-04-1009:51:25] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1009:51:35] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Franco Croce": not a valid `long` value
+[2023-04-1009:53:57] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1009:54:04] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Esteban Gonzalez": not a valid `long` value
+[2023-04-1009:55:01] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1009:55:23] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Esteban Gonzalez": not a valid `long` value
+[2023-04-1009:56:45] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1009:57:28] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Franco Croce": not a valid `long` value
+[2023-04-1010:01:49] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1010:01:56] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Franco Croce": not a valid `long` value
+[2023-04-1010:02:15] [ ERROR] [GlobalExceptionHandler: 19] JSON parse error: Cannot deserialize value of type `long` from String "Esteban Gonzalez": not a valid `long` value
+[2023-04-1010:05:08] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1010:05:46] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:24:03] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:24:48] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:27:31] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:30:34] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:31:12] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:31:13] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-1019:31:14] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-1019:31:19] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:33:02] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:34:08] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:35:24] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:36:09] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1019:36:34] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1020:34:13] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1020:35:36] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1020:35:39] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-1020:35:44] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1020:39:34] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1720:15:11] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-1720:15:32] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-2021:53:10] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-2021:53:13] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-2021:53:19] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-2021:53:20] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-2021:54:21] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-2021:54:24] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-2021:54:29] [ INFO ] [GlobalExceptionHandler: 55] El odontonlogo ha sido modificado correctamente
+[2023-04-2021:54:30] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-2021:54:34] [ INFO ] [GlobalExceptionHandler: 62] Se ha eliminado al odontologo con id 5
+[2023-04-2022:06:57] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
+[2023-04-2022:07:02] [ INFO ] [GlobalExceptionHandler: 62] Se ha eliminado al odontologo con id 2
+[2023-04-2022:07:03] [ INFO ] [GlobalExceptionHandler: 62] Se ha eliminado al odontologo con id 4
+[2023-04-2022:07:04] [ INFO ] [GlobalExceptionHandler: 62] Se ha eliminado al odontologo con id 3
+[2023-04-2022:07:11] [ INFO ] [GlobalExceptionHandler: 44] El odontologo ha sido encontrado correctamente
+[2023-04-2022:07:16] [ INFO ] [GlobalExceptionHandler: 55] El odontonlogo ha sido modificado correctamente
+[2023-04-2022:07:16] [ INFO ] [GlobalExceptionHandler: 76] Se han listado todos los odontologos
